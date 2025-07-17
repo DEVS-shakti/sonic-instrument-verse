@@ -61,7 +61,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Musical instrument theme colors
+				wood: 'hsl(var(--wood-brown))',
+				brass: 'hsl(var(--brass-gold))',
+				string: 'hsl(var(--string-silver))',
+				leather: 'hsl(var(--leather-brown))',
+				vintage: 'hsl(var(--vintage-cream))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
