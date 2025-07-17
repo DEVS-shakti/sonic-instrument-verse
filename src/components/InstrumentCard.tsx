@@ -22,7 +22,7 @@ export const InstrumentCard = ({
   featured = false 
 }: InstrumentCardProps) => {
   return (
-    <Card className={`group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 ${featured ? 'ring-2 ring-brass' : ''}`}>
+    <Card className={`instrument-card group ${featured ? 'ring-2 ring-brass' : ''}`}>
       <CardHeader className="p-0">
         <div className="relative overflow-hidden rounded-t-lg">
           <img 
